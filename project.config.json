@@ -1,5 +1,6 @@
 {
 	"description": "项目配置文件",
+	"cloudfunctionRoot": "cloud-functions/",
 	"packOptions": {
 		"ignore": []
 	},
@@ -24,7 +25,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
-	"appid": "wx83c70918786b8d5f",
+	"appid": "wxaf1e28356b531f7a",
 	"projectname": "Orange-Can",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -32,6 +33,7 @@
 	"scripts": {},
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"condition": {
 		"search": {
 			"current": -1,

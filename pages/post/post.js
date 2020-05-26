@@ -1,16 +1,16 @@
 import {
   DBPost
-} from '../../data/db.js'
+} from '../../data/db-cloud.js'
 
 Page({
   data: {},
 
-  onLoad: function() {
-    var dbPost = new DBPost()
+  async onLoad() {
+    const posts = await DBPost.getAllPostData()
     this.setData({
-      postList: dbPost.getAllPostData()
+     postList: posts
     })
-  },
+   },
 
   onTapToDetail(event) {
     var postId = event.currentTarget.dataset.postId
